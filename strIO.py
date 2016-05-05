@@ -36,8 +36,8 @@ def findbykey(key,resultfile,findpath,thepath):
 
 def findfilebykey(key,findpath='.'):
 	L=list()
-	thepath = '\\'
+	thepath = '/'
 	return findbykey(key,L,findpath,thepath)
 
-print(findfilebykey('fricin','E:\\fricin\\workspace\\Leetcoding'))
+print(findfilebykey('sh','/home/fricin/workspace/shell'))
 print(findfilebykey('test'))
